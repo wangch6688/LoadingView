@@ -15,6 +15,8 @@
 		E7067CEB20734FAC00896F21 /* LoadingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067CEA20734FAC00896F21 /* LoadingViewTests.swift */; };
 		E7067CF620734FAC00896F21 /* LoadingViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067CF520734FAC00896F21 /* LoadingViewUITests.swift */; };
 		E7067D052073504A00896F21 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067D042073504A00896F21 /* LoadingView.swift */; };
+		E7067D082073606400896F21 /* CustomLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067D072073606400896F21 /* CustomLoadingView.swift */; };
+		E7067D0A2073608000896F21 /* CustomLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7067D092073608000896F21 /* CustomLoadingView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E7067CF520734FAC00896F21 /* LoadingViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewUITests.swift; sourceTree = "<group>"; };
 		E7067CF720734FAC00896F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7067D042073504A00896F21 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		E7067D072073606400896F21 /* CustomLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadingView.swift; sourceTree = "<group>"; };
+		E7067D092073608000896F21 /* CustomLoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomLoadingView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				E7067D042073504A00896F21 /* LoadingView.swift */,
+				E7067D072073606400896F21 /* CustomLoadingView.swift */,
+				E7067D092073608000896F21 /* CustomLoadingView.xib */,
 			);
 			path = loadingView;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 			files = (
 				E7067CE020734FAB00896F21 /* LaunchScreen.storyboard in Resources */,
 				E7067CDD20734FAB00896F21 /* Assets.xcassets in Resources */,
+				E7067D0A2073608000896F21 /* CustomLoadingView.xib in Resources */,
 				E7067CDB20734FAB00896F21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +296,7 @@
 			files = (
 				E7067CD820734FAB00896F21 /* ViewController.swift in Sources */,
 				E7067CD620734FAB00896F21 /* AppDelegate.swift in Sources */,
+				E7067D082073606400896F21 /* CustomLoadingView.swift in Sources */,
 				E7067D052073504A00896F21 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

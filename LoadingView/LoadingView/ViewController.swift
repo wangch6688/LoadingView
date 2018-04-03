@@ -9,10 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let button = UIButton(frame: CGRect(x: 100, y: 100, width: 200, height: 100))
+    let loadingView = CustomLoadingView.loading(title: "Loading")
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        defaultSetting()
+    }
+    
+    func defaultSetting() {
+        button.setTitle("show loading", for: .normal)
+        button.backgroundColor = CycleColorRed
+        button.addTarget(self, action: #selector(showLoadingView), for: .touchUpInside)
+        view.addSubview(button)
+    }
+    
+    @objc
+    func showLoadingView() {
+        loadingView?.show(on: view)
     }
 
     override func didReceiveMemoryWarning() {
