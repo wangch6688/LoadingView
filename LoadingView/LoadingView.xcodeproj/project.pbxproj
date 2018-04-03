@@ -14,6 +14,7 @@
 		E7067CE020734FAB00896F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7067CDE20734FAB00896F21 /* LaunchScreen.storyboard */; };
 		E7067CEB20734FAC00896F21 /* LoadingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067CEA20734FAC00896F21 /* LoadingViewTests.swift */; };
 		E7067CF620734FAC00896F21 /* LoadingViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067CF520734FAC00896F21 /* LoadingViewUITests.swift */; };
+		E7067D052073504A00896F21 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7067D042073504A00896F21 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E7067CF120734FAC00896F21 /* LoadingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7067CF520734FAC00896F21 /* LoadingViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewUITests.swift; sourceTree = "<group>"; };
 		E7067CF720734FAC00896F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7067D042073504A00896F21 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E7067CD520734FAB00896F21 /* AppDelegate.swift */,
 				E7067CD720734FAB00896F21 /* ViewController.swift */,
+				E7067D032073503700896F21 /* loadingView */,
 				E7067CD920734FAB00896F21 /* Main.storyboard */,
 				E7067CDC20734FAB00896F21 /* Assets.xcassets */,
 				E7067CDE20734FAB00896F21 /* LaunchScreen.storyboard */,
@@ -123,6 +126,14 @@
 				E7067CF720734FAC00896F21 /* Info.plist */,
 			);
 			path = LoadingViewUITests;
+			sourceTree = "<group>";
+		};
+		E7067D032073503700896F21 /* loadingView */ = {
+			isa = PBXGroup;
+			children = (
+				E7067D042073504A00896F21 /* LoadingView.swift */,
+			);
+			path = loadingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				E7067CD820734FAB00896F21 /* ViewController.swift in Sources */,
 				E7067CD620734FAB00896F21 /* AppDelegate.swift in Sources */,
+				E7067D052073504A00896F21 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
